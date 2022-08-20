@@ -4,3 +4,4 @@ pylgbst
 influxdb_client
 paho_mqtt
 playsound
+faker

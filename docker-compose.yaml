@@ -31,7 +31,7 @@ services:
   iot_center:
     image: ghcr.io/bonitoo-io/iot-center-v2/iot-center:nightly
     ports:
-      - "5000:5000"
+      - "8080:5000"
     environment:
       - INFLUX_URL=http://influxdb_v2:8086
       - INFLUX_TOKEN=my-token
