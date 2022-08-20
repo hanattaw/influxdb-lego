@@ -49,7 +49,7 @@ Note that the IoT Center requires the following free ports that do not bind:
 
 - **1883** (mqtt broker)
 - **8086** (influxdb 2.0 OSS)
-- **5000**, 3000 nodejs server and UI app
+- **8080**, 3000 nodejs server and UI app
 
 ### Lego Boost registration 
 
@@ -124,3 +124,6 @@ version from github using following pip command:
 ```bash
 pip install git+https://github.com/undera/pylgbst
 ```
+
+### Influx IoT Dev
+InfluxDB IoT dev guide: [https://influxdata.github.io/iot-dev-guide/introduction.html]
